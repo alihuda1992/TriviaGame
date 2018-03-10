@@ -1,0 +1,22 @@
+h1.jumbotron-header {
+    text-align: center;
+
+}
+
+.jumbotron {
+    text-align:center;
+    background-color: black;
+    color:goldenrod;
+}
+
+body {
+    background: url(https://wallpaperscraft.com/image/chain_gold_close-up_80776_1400x1050.jpg);
+    font-family: 'UniqueRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+#startbutton {
+    background-color: goldenrod;
+    color: black;
+}

@@ -1,0 +1,17 @@
+
+$("#startbutton").click(); {
+
+    $("#jumbotron").html(
+
+
+
+
+
+
+
+        
+    )
+
+
+
+}
