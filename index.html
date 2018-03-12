@@ -1,27 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trivial Trivia</title>
-    <script src="assets/javascript/app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-        <div class="jumbotron">
-                <h1 class="jumbotron-header">Traphouse Trivia</h1>
-                <p>This is a quick trivia game, click the button below to start!</p>
-                <p><a class="btn btn-primary btn-lg" id="startbutton" role="button">START</a></p>
-         </div>
-    
+    <div class="jumbotron" id="jumbotrondiv">
+        <h1 class="jumbotron-header">Traphouse Trivia</h1>
+        <p>This is a quick trivia game, click the button below to start!</p>
+        <p>
+            <a class="btn btn-primary btn-lg" id="startbutton" role="button">START</a>
+        </p>
+    </div>
+
+    <div class="jumbotron" id="jumbotrondiv2" style="display:none;">
+        <div class="row">
+            <form action="">
+                <p>Question 1: What is a "Bando" ?</p>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </form>
+        </div>
+        <br>
+        <div class="row">
+            <form action="">
+                <p>Question 2: Name the three members of the rap group Migos </p>
+                <input type="radio" name="gender" value="correct"> Takeoff,Offset,Quavo
+                <input type="radio" name="gender" value="female"> Offset,Onset,Upset
+                <input type="radio" name="gender" value="other"> Ja Rule,Ashanti,Tupac
+            </form>
+        </div>
+        <br>
+        <div class="row">
+            <form action="">
+                <p>Question 3: What is gualla ?</p>
+                <input type="radio" name="gender" value="male"> Cheese
+                <input type="radio" name="gender" value="Correct"> Money
+                <input type="radio" name="gender" value="other"> 
+            </form>
+        </div>
+        <br>
+        <div class="row">
+            <form action="">
+                <p>Question 4: What is a "Bando" ?</p>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </form>
+        </div>
+        <br>
+        <div class="row">
+            <form action="">
+                <p>Question 5: What is a "Bando" ?</p>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </form>
+        </div>
+
+
+    </div>
+
+
 </body>
+
 </html>
-
-
-
